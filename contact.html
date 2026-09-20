@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Saved-Obed pour discuter de vos projets web, une collaboration ou une opportunité. Formulaire de contact et coordonnées directes.">
+    <title>Contact - Saved-Obed</title>
+    <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+
+        <img src="./assets/logo.svg" alt="Saved-Obed fullstack dev">
+
+        <nav id="navigation">
+            <button type="button" class="menu" id="bouton-menu" aria-label="Ouvrir le menu de navigation">
+                Menu</button>
+            <ul id="liens">
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+
+       <h1>Contactez-moi</h1>
+       <p>Un projet, une question ou une opportunité ? N'hésitez pas à m'écrire !</p>
+
+       <form id="formulaire-contact">
+
+            <div>
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom" name="nom" required placeholder="Votre nom complet">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="nom.email@exemple.com">
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Parlez-moi de votre projet..."></textarea>
+            </div>
+
+            <span class="erreur" id="message-erreur"></span>
+
+            <button type="submit">Envoyer le message</button>
+
+       </form>
+
+       <div id="resultat-message" class="resultat">
+
+       </div>
+
+       <div id="contact-direct">
+            <h2>Contactez-moi directement</h2>
+            <ul>
+                <li>Email : <a href="mailto:VOTRE_EMAIL_ICI" rel="noopener noreferrer">VOTRE_EMAIL_ICI</a></li>
+                <li>WhatsApp : <a href="https://wa.me/2290163299483" target="_blank" rel="noopener noreferrer">(+229) 0163299483</a></li>
+                <li>Facebook : <a href="https://www.facebook.com/profile.php?id=61586889844103" target="_blank" rel="noopener noreferrer">Saved Wish</a></li>
+            </ul>
+       </div>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <img src="./assets/logo.svg" alt="Saved-Obed fullstack dev" class="logo">
+            <a href="https://github.com/hounzandjiobed" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/github.svg" alt="lien GitHub" class="footer-icone"> GitHub</a>
+            <a href="https://www.facebook.com/profile.php?id=61586889844103" target="_blank" rel="noopener noreferrer"><img src="./assets/icons/facebook.svg" alt="lien Facebook" class="footer-icone"> Facebook</a>
+        </div>
+
+        <p>&copy; 2026 Saved Obed. Tous droits réservés.</p>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

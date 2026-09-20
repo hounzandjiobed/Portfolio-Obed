@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Icône Déploiement & Intégration (Fusée / Git / Cloud) avec Pop 3D -->
+  <g transform="translate(18, 12)">
+    
+    <!-- Fusée de Déploiement en 3D -->
+    <!-- Aileron gauche (Rose 3D) -->
+    <path d="M 18 42 L 8 50 L 18 52 Z" fill="#F472B6" stroke="#DB2777" stroke-width="2.5" stroke-linejoin="round" />
+    
+    <!-- Aileron droit (Rose 3D) -->
+    <path d="M 46 42 L 56 50 L 46 52 Z" fill="#F472B6" stroke="#DB2777" stroke-width="2.5" stroke-linejoin="round" />
+
+    <!-- Corps principal de la fusée (Bleu 3D) -->
+    <!-- Ombre 3D -->
+    <path d="M 32 10 C 20 20, 18 40, 18 52 L 46 52 C 46 40, 44 20, 32 10 Z" fill="none" stroke="#1D4ED8" stroke-width="3.5" transform="translate(2, 2)" />
+    <!-- Face avant -->
+    <path d="M 32 10 C 20 20, 18 40, 18 52 L 46 52 C 46 40, 44 20, 32 10 Z" fill="#0F172A" stroke="#38BDF8" stroke-width="3.5" />
+
+    <!-- Hublot de la fusée (Vert) -->
+    <circle cx="32" cy="30" r="7" fill="#0F172A" stroke="#34D399" stroke-width="3" />
+    <circle cx="32" cy="30" r="3" fill="#34D399" />
+
+    <!-- Flamme de propulsion (Rose & Vert) -->
+    <path d="M 23 54 L 32 68 L 41 54 Z" fill="#F472B6" stroke="#DB2777" stroke-width="2" />
+    <path d="M 27 54 L 32 63 L 37 54 Z" fill="#34D399" />
+
+    <!-- Nœuds Git branch sur le côté -->
+    <circle cx="58" cy="18" r="3" fill="#34D399" />
+    <circle cx="58" cy="32" r="3" fill="#38BDF8" />
+    <line x1="58" y1="21" x2="58" y2="29" stroke="#38BDF8" stroke-width="2" stroke-dasharray="2 1" />
+  </g>
+</svg>

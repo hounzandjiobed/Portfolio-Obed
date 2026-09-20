@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 95" width="100%" height="100%">
+  <!-- Styles et ombrages 3D fins -->
+  <style>
+    .pop-3d-pink-back { fill: none; stroke: #DB2777; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .pop-3d-pink-front { fill: none; stroke: #F472B6; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    
+    .pop-3d-blue-back { fill: none; stroke: #1D4ED8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .pop-3d-blue-front { fill: none; stroke: #38BDF8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+
+    .pop-3d-green-back { fill: none; stroke: #047857; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    .pop-3d-green-front { fill: none; stroke: #34D399; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+
+    .titre-3d-back { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 26px; font-weight: 900; letter-spacing: 1.5px; }
+    .titre-3d-front { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 26px; font-weight: 900; letter-spacing: 1.5px; }
+    .sous-titre { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; fill: #38BDF8; }
+  </style>
+
+  <!-- ==================== SYMBOLE < S O > ==================== -->
+  <g id="embleme" transform="translate(15, 12)">
+
+    <!-- Crochet Gauche < (Bleu) -->
+    <path d="M 28 20 L 12 36 L 28 52" class="pop-3d-blue-back" transform="translate(2.5, 2.5)" />
+    <path d="M 28 20 L 12 36 L 28 52" class="pop-3d-blue-front" />
+
+    <!-- Lettre S (Rose) -->
+    <path d="M 48 24 C 48 18, 36 18, 36 26 C 36 37, 50 35, 50 46 C 50 54, 38 54, 35 48" class="pop-3d-pink-back" transform="translate(2.5, 2.5)" />
+    <path d="M 48 24 C 48 18, 36 18, 36 26 C 36 37, 50 35, 50 46 C 50 54, 38 54, 35 48" class="pop-3d-pink-front" />
+
+    <!-- Lettre O (Vert) -->
+    <circle cx="68" cy="36" r="13" class="pop-3d-green-back" transform="translate(2.5, 2.5)" />
+    <circle cx="68" cy="36" r="13" class="pop-3d-green-front" />
+
+    <!-- Crochet Droit > (Bleu) -->
+    <path d="M 88 20 L 104 36 L 88 52" class="pop-3d-blue-back" transform="translate(2.5, 2.5)" />
+    <path d="M 88 20 L 104 36 L 88 52" class="pop-3d-blue-front" />
+
+  </g>
+
+  <!-- ==================== TEXTE 3D (SAVED EN VERT, OBED EN ROSE) ==================== -->
+  <g transform="translate(142, 22)">
+    
+    <!-- Effet 3D Arrière du Texte (Ombre / Profondeur) -->
+    <text x="2" y="32" class="titre-3d-back">
+      <tspan fill="#047857">SAVED</tspan> <tspan fill="#DB2777">OBED</tspan>
+    </text>
+
+    <!-- Texte Avant (Couleur principale) -->
+    <text x="0" y="30" class="titre-3d-front">
+      <tspan fill="#34D399">SAVED</tspan> <tspan fill="#F472B6">OBED</tspan>
+    </text>
+
+    <!-- Sous-titre en Bleu -->
+    <text x="1" y="52" class="sous-titre">
+      DÉVELOPPEUR FULLSTACK
+    </text>
+  </g>
+</svg>
