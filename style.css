@@ -6,29 +6,29 @@
     box-sizing: border-box;
 }
 
-/* Variables pour le projet (Palette dominante : Bleu, Rose, Vert) */
+
 
 :root {
-    /* Couleurs principales */
+    
     --couleur-bleu: #2563eb;
     --couleur-rose: #ec4899;
     --couleur-vert: #10b981;
 
-    /* Variantes plus soutenues pour le survol */
+   
     --couleur-bleu-survol: #1d4ed8;
     --couleur-rose-survol: #db2777;
     --couleur-vert-survol: #059669;
 
-    /* Couleurs de fond et surfaces */
+    
     --couleur-fond: #0f172a;
     --couleur-carte: #1e293b;
 
-    /* Couleurs de texte */
+    
     --couleur-texte: #f8fafc;
     --couleur-texte-secondaire: #94a3b8;
 }
 
-/* Stylisation générale */
+
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -52,7 +52,7 @@ a {
     color: inherit;
 }
 
-/* Le Header et la Navigation */
+/* Le header */
 
 header {
     display: flex;
@@ -108,7 +108,7 @@ header nav a.active {
     border-bottom-color: var(--couleur-rose);
 }
 
-/* Conteneur principal (Main) */
+
 
 main {
     margin: 0 auto;
@@ -120,7 +120,7 @@ main {
     gap: 40px;
 }
 
-/* Section Hero */
+/*la section hero */
 
 #hero {
     min-height: 60vh;
@@ -133,8 +133,6 @@ main {
     padding: 40px 20px;
     border: 2px solid var(--couleur-bleu);
     border-radius: 8px;
-
-    /* Arrière-plan décomposé propriété par propriété */
     background-image: linear-gradient(rgba(15, 23, 42, 0.70), rgba(15, 23, 42, 0.70)), url(assets/arriereplan-hero.jpg);
     background-position: center;
     background-size: cover;
@@ -187,7 +185,7 @@ main {
     transform: translateY(-2px);
 }
 
-/* Section Compétences */
+/* la section compétences */
 
 #competences {
     background-color: var(--couleur-carte);
@@ -244,7 +242,7 @@ main {
     font-size: 15px;
 }
 
-/* Section Aperçu des Projets */
+/* la section aperçu des projets */
 
 #apercu-projets {
     background-color: var(--couleur-carte);
@@ -314,7 +312,7 @@ main {
     background-color: var(--couleur-bleu-survol);
 }
 
-/* Section Réseaux Sociaux (Aside) */
+/* la section réseaux sociaux */
 
 aside {
     background-color: var(--couleur-carte);
@@ -361,7 +359,7 @@ aside img {
     height: 20px;
 }
 
-/* Le Footer */
+/* le footer */
 
 footer {
     max-width: 1200px;
@@ -413,11 +411,8 @@ footer p {
     font-size: 14px;
 }
 
-/* =========================================
-   Styles spécifiques pour la page Projets (projets.html)
-   ========================================= */
+/*  la page Projets */
 
-/* En-tête de la page projets */
 #partie-projets {
     text-align: center;
     padding: 10px 0;
@@ -434,7 +429,7 @@ footer p {
     font-size: 18px;
 }
 
-/* Chaque fiche de projet */
+
 .chaque-projet {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-rose);
@@ -474,7 +469,6 @@ footer p {
     font-size: 16px;
 }
 
-/* Les badges / tags de technologies (Python, HTML, etc.) */
 .chaque-projet ul {
     display: flex;
     gap: 10px;
@@ -491,7 +485,7 @@ footer p {
     font-size: 13px;
 }
 
-/* Bouton du projet */
+
 .chaque-projet a {
     display: inline-block;
     padding: 10px 20px;
@@ -507,7 +501,7 @@ footer p {
     background-color: var(--couleur-bleu-survol);
 }
 
-/* Bannière d'appel à l'action pour les clients */
+
 #projet-client {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-vert);
@@ -546,11 +540,9 @@ footer p {
     transform: translateY(-2px);
 }
 
-/* =========================================
-   Styles spécifiques pour la page À propos (about.html)
-   ========================================= */
 
-/* Section de présentation générale */
+/*  la page à propos */
+
 .partie-a_propos {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-bleu);
@@ -590,7 +582,7 @@ footer p {
     font-size: 16px;
 }
 
-/* Encart frappant pour la vision IA */
+
 .vision {
     background-color: var(--couleur-fond);
     border-left: 2px solid var(--couleur-rose);
@@ -613,7 +605,7 @@ footer p {
     font-size: 17px;
 }
 
-/* Bouton Télécharger mon CV */
+
 #telecharger {
     display: inline-block;
     align-self: center;
@@ -633,7 +625,8 @@ footer p {
     transform: translateY(-2px);
 }
 
-/* Section Certifications */
+/*  la Section Certifications */
+
 #mes-certifications {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-bleu);
@@ -706,11 +699,10 @@ footer p {
     background-color: var(--couleur-bleu-survol);
 }
 
-/* =========================================
-   Styles spécifiques pour la page Contact (contact.html)
-   ========================================= */
+/*  la page de contact */
 
-/* Le formulaire de contact */
+/*  le formulaire  */
+
 #formulaire-contact {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-bleu);
@@ -802,7 +794,7 @@ footer p {
     margin: 10px auto;
 }
 
-/* Encart des coordonnées directes */
+
 #contact-direct {
     background-color: var(--couleur-carte);
     border: 2px solid var(--couleur-vert);
@@ -842,13 +834,11 @@ footer p {
     color: var(--couleur-rose);
 }
 
-/* =========================================
-   Responsivité — Tablette (max 900px)
-   ========================================= */
+/* la Responsivité — Tablette */
 
 @media (max-width: 900px) {
 
-    /* Header : réduire les espacements */
+
     header {
         padding: 15px 1rem;
     }
@@ -861,7 +851,6 @@ footer p {
         gap: 12px;
     }
 
-    /* Hero : réduire les tailles de police */
     #hero h1 {
         font-size: 26px;
     }
@@ -870,7 +859,6 @@ footer p {
         font-size: 17px;
     }
 
-    /* À propos : la photo passe au-dessus du texte */
     .partie-a_propos {
         flex-direction: column;
         align-items: center;
@@ -884,26 +872,20 @@ footer p {
         min-width: unset;
         width: 100%;
     }
-}
 
-/* =========================================
-   Responsivité — Mobile (max 600px)
-   ========================================= */
+     }
+
+/* la Responsivité — Mobile */
 
 @media (max-width: 600px) {
 
-
-    /* Le nav sert de repère pour positionner le menu déroulant */
     #navigation {
         position: relative;
     }
 
-    /* Affichage du bouton Menu en mobile */
     .menu {
         display: block;
     }
-
-    /* Masquer le menu <ul> par défaut en mobile */
     header ul {
         display: none;
         flex-direction: column;
@@ -919,7 +901,7 @@ footer p {
         z-index: 1000;
     }
 
-    /* S'assurer que les liens restent visibles à l'intérieur du ul */
+    
     header nav a {
         display: block;
         width: 100%;
@@ -927,18 +909,14 @@ footer p {
         padding: 8px 0;
     }
 
-    /* Classe toggle JS : affiche le menu au clic */
     header ul.visible {
         display: flex;
     }
-
-    /* Main : réduire le padding */
     main {
         padding: 20px 1rem;
         gap: 25px;
     }
 
-    /* Hero : tout en colonne, textes compacts */
     #hero {
         min-height: auto;
         padding: 30px 15px;
@@ -959,17 +937,14 @@ footer p {
         margin: 4px 0;
     }
 
-    /* Compétences : 1 colonne sur mobile */
     #competences > div {
         grid-template-columns: 1fr;
     }
 
-    /* Projets : 1 colonne sur mobile */
     #apercu-projets > div {
         grid-template-columns: 1fr;
     }
 
-    /* À propos : photo centrée et plus petite */
     .partie-a_propos {
         flex-direction: column;
         padding: 20px 15px;
@@ -988,23 +963,20 @@ footer p {
         font-size: 15px;
     }
 
-    /* Vision : padding réduit */
+
     .vision {
         padding: 12px 15px;
     }
 
-    /* Certifications : 1 colonne */
     #chaque-certificat {
         grid-template-columns: 1fr;
     }
 
-    /* Formulaire : pleine largeur */
     #formulaire-contact,
     #contact-direct {
         padding: 20px 15px;
     }
 
-    /* Footer : compact */
     footer {
         padding: 20px 1rem;
         gap: 10px;
@@ -1015,13 +987,12 @@ footer p {
         gap: 12px;
     }
 
-    /* Aside (réseaux sociaux) */
     aside div {
         flex-direction: column;
         align-items: center;
     }
 
-    /* Page Projets : 1 colonne */
+    
     .chaque-projet ul {
         justify-content: center;
     }
