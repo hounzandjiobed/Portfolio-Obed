@@ -128,7 +128,7 @@ if (boutonMenu) {
 
     });
 
-    // Fermer le menu si on clique en dehors
+    
     document.addEventListener("click", (e) => {
         if (!boutonMenu.contains(e.target) && !liens.contains(e.target)) {
             liens.classList.remove("visible");

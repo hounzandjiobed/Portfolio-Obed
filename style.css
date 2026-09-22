@@ -141,13 +141,14 @@ main {
 
 #hero h1 {
     color: var(--couleur-texte);
-    font-size: 34px;
+    font-size: 36px;
     max-width: 800px;
 }
 
 #hero p {
     color: var(--couleur-texte-secondaire);
-    font-size: 19px;
+    font-size: 24px;
+    font-weight: 600;
     max-width: 700px;
 }
 
@@ -266,7 +267,7 @@ main {
 
 .projet {
     background-color: var(--couleur-fond);
-    border: 1px solid var(--couleur-rose);
+    border: 1px solid var(--couleur-vert);
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -432,7 +433,7 @@ footer p {
 
 .chaque-projet {
     background-color: var(--couleur-carte);
-    border: 2px solid var(--couleur-rose);
+    border: 2px solid var(--couleur-bleu);
     border-radius: 8px;
     padding: 25px;
     display: flex;
@@ -444,7 +445,7 @@ footer p {
 
 .chaque-projet:hover {
     transform: translateY(-5px);
-    border-color: var(--couleur-rose-survol);
+    border-color: var(--couleur-bleu-survol);
 }
 
 .chaque-projet img {
@@ -455,7 +456,7 @@ footer p {
     object-fit: cover;
     background-color: var(--couleur-fond);
     border-radius: 5px;
-    border: 2px solid var(--couleur-texte);
+    border: 2px solid var(--couleur-vert);
     padding: 15px;
 }
 
@@ -558,9 +559,14 @@ footer p {
     width: 260px;
     max-height: 500px;
     border-radius: 5px;
-    border: 3px solid var(--couleur-rose);
+    border: 2px solid var(--couleur-vert-survol);
     object-fit: cover;
     margin: 0 auto;
+}
+
+#apropos-titre{
+    margin: 0 auto;
+    text-align: center;
 }
 
 .partie-a_propos > div {
@@ -579,13 +585,13 @@ footer p {
 
 .partie-a_propos p {
     color: var(--couleur-texte-secondaire);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
 .vision {
     background-color: var(--couleur-fond);
-    border-left: 2px solid var(--couleur-rose);
+    border-left: 2px solid var(--couleur-vert-survol);
     border-radius: 4px;
     padding: 15px 20px;
     margin-top: 10px;
@@ -649,7 +655,7 @@ footer p {
 
 #chaque-certificat > div {
     background-color: var(--couleur-fond);
-    border: 1px solid var(--couleur-vert);
+    border: 1px solid var(--couleur-vert-survol);
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -662,7 +668,7 @@ footer p {
 
 #chaque-certificat > div:hover {
     transform: translateY(-5px);
-    border-color: var(--couleur-vert-survol);
+    border-color: var(--couleur-vert);
 }
 
 #chaque-certificat h3 {
@@ -700,6 +706,16 @@ footer p {
 }
 
 /*  la page de contact */
+
+.phrase{
+    margin: 0 auto;
+    color: var(--couleur-vert-survol);
+    font-weight: 500; 
+}
+
+#contact-titre{
+    margin: 0 auto; 
+}
 
 /*  le formulaire  */
 
@@ -957,6 +973,7 @@ footer p {
 
     .partie-a_propos h2 {
         font-size: 22px;
+        text-align: center;
     }
 
     .partie-a_propos p {
@@ -970,6 +987,11 @@ footer p {
 
     #chaque-certificat {
         grid-template-columns: 1fr;
+    }
+
+    .phrase{
+        margin: 0 auto;
+        text-align: center;
     }
 
     #formulaire-contact,
