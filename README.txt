@@ -1,6 +1,9 @@
 
 
 
+
+
+
 Présentation
 
 Portfolio Saved-Obed Fullstack Developer.
@@ -21,9 +24,9 @@ Mes quelques difficultés
 - la mise en ligne des projets sur github pages
 - l'optimisation du seo
 - la mise en place du formulaire de contact
-- la mise en place du menu burger sur mobile, donc engros ; la responsivité du site
+- la mise en place du menu burger sur mobile, donc en gros ; la responsivité du site
 - la mise en place des animations, transitions, effets de survol
-- la validation du formulaire de contact, surtout l'emai pour qui on utilise des regex
+- la validation du formulaire de contact, surtout l'email pour qui on utilise des regex
  
 
 Résumé qualité
@@ -51,3 +54,4 @@ voici les liens pour acceder aux:
 depot github: https://github.com/hounzandjiobed/Portfolio-Obed
 
 lien du site : https://hounzandjiobed.github.io/Portfolio-Obed/
+
